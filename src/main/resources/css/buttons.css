@@ -1,0 +1,19 @@
+/* Основной стиль кнопки */
+.button {
+    -fx-background-image: url("../buttons/images/stone_btn4.png");
+    -fx-background-size: cover;
+    -fx-background-color: black;
+    -fx-text-fill: white; /* Белый цвет текста */
+    -fx-font-size: 18px; /* Размер шрифта */
+    -fx-padding: 10px 20px; /* Внутренние отступы */
+    -fx-background-radius: 15; /* Скругленные края */
+    -fx-border-radius: 15; /* Скругленные края для границ */
+    -fx-cursor: hand; /* Изменяет курсор при наведении */
+    -fx-transition: all 0.3s ease; /* Плавный переход для всех свойств */
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0.3,2,2 );
+}
+
+.button:pressed {
+    -fx-scale-x: 1.1; /* Увеличение кнопки по оси X */
+    -fx-scale-y: 1.1; /* Увеличение кнопки по оси Y */
+}

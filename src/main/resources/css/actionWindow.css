@@ -1,0 +1,54 @@
+.cipher-window {
+    -fx-background-image: url("/backgrounds/action_window.png");
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-background-position: center center;
+}
+
+.cipher-window .label {
+    -fx-text-fill: white; /* Белый текст */
+    -fx-font-size: 18px;
+    -fx-alignment: center;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0.3,2,2 ); /* Объемный текст */
+}
+
+.cipher-window .error-label {
+    -fx-text-fill: red;
+    -fx-font-size: 18px;
+    -fx-alignment: center;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0.3,2,2 ); /* Объемный текст */
+}
+
+.success-window {
+    -fx-padding: 20;
+    -fx-background-color: #2b2b2b;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-alignment: center;
+}
+
+.success-window .label {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-alignment: center;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0.3,2,2 ); /* Объемный текст */
+}
+
+.success-window .button {
+    -fx-background-color: #4a4a4a;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+
+.success-window .button:hover {
+    -fx-background-color: #6a6a6a;
+}
+.text-field {
+    -fx-pref-width: 50px;
+    -fx-max-width: 50px;
+    -fx-min-width: 50px;
+    -fx-alignment: center;
+}

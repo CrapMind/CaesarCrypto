@@ -1,0 +1,26 @@
+.root {
+    -fx-padding: 0;
+    -fx-background-image: url("../backgrounds/background.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+
+}
+
+.label {
+    -fx-font-size: 36px;
+    -fx-text-fill: white;
+    -fx-padding: 20px 0;
+    -fx-alignment: center;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0.3,2,2 ); /* Объемный текст */
+}
+
+.border-label {
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-padding: 10px;
+    -fx-border-radius: 5px; /* Скругленные края для рамки */
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0.3,2,2 ); /* Эффект тени */
+    -fx-alignment: center;
+    -fx-max-width: 400px;
+}
