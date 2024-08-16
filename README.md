@@ -18,7 +18,6 @@ CaesarCrypto is a Java-based encryption and decryption tool that uses the Caesar
 1. Clone the repository:
    ```bash
    git clone https://github.com/CrapMind/CaesarCrypto.git
-   cd CaesarCrypto
 
 ### Build the project:
 mvn clean install
